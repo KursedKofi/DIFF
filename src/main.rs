@@ -12,7 +12,7 @@ impl Compete for Robot {
     }
 }
 
-#[vexide::main]
+#[vexide::main(banner(enabled = false))]
 async fn main(peripherals: Peripherals) {
     let robot = Robot {};
 
